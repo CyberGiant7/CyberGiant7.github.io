@@ -89,6 +89,9 @@ function getJsonFiles() {
       fetchJson("assets/json/dlc_items.json", function (data2) {
         all_items.armament = { ...all_items.armament, ...data2.armament };
         all_items.armor = { ...all_items.armor, ...data2.armor };
+        all_items.ashesOfWar = { ...all_items.ashesOfWar, ...data2.ashesOfWar };
+        all_items.magic = { ...all_items.magic, ...data2.magic };
+        all_items.spiritAshes = { ...all_items.spiritAshes, ...data2.spiritAshes };
         all_items.talisman = { ...all_items.talisman, ...data2.talisman };
       });
     }
