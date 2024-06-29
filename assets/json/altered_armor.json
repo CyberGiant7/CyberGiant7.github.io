@@ -302,5 +302,53 @@
     "1005828C": {
       "name": "Fire Prelate Armor (Altered)",
       "category": "Body"
+    },
+    "102DCB0C": {
+      "name": "Dryleaf Robe (Altered)",
+      "category": "Body"
+    },
+    "104CC4BC": {
+      "name": "Thiollier's Garb (Altered)",
+      "category": "Body"
+    },
+    "104D880C": {
+      "name": "Dancer's Dress (Altered)",
+      "category": "Body"
+    },
+    "104DD5C8": {
+      "name": "Igon's Helm (Altered)",
+      "category": "Head"
+    },
+    "104DD62C": {
+      "name": "Igon's Armor (Altered)",
+      "category": "Body"
+    },
+    "104DFD3C": {
+      "name": "Ansbach's Attire (Altered)",
+      "category": "Body"
+    },
+    "104E244C": {
+      "name": "Freyja's Armor (Altered)",
+      "category": "Body"
+    },
+    "104E4B5C": {
+      "name": "Armor of Solitude (Altered)",
+      "category": "Body"
+    },
+    "104E726C": {
+      "name": "Messmer Soldier Armor (Altered)",
+      "category": "Body"
+    },
+    "104F0EAC": {
+      "name": "Fire Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "104FAA88": {
+      "name": "Messmer's Helm (Altered)",
+      "category": "Head"
+    },
+    "10506E3C": {
+      "name": "Young Lion's Armor (Altered)",
+      "category": "Body"
     }
   }
