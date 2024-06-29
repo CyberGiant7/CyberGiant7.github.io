@@ -59,51 +59,47 @@ function calculate(){
       }
 }
 
+function fetchJson(url, callback) {
+  $.ajax({
+    url: url,
+    async: false,
+    dataType: "json",
+    success: callback,
+  });
+}
+
 function getJsonFiles() {
-  $.ajax({
-    url: "assets/json/all_items.json",
-    async: false,
-    dataType: "json",
-    success: function (data) {
-      all_items = { ...data };
-      if ($("#altered-armor").is(":checked")) {
-        $.ajax({
-          url: "assets/json/altered_armor.json",
-          async: false,
-          dataType: "json",
-          success: function (data2) {
-            all_items.armor = { ...all_items.armor, ...data2 };
-          },
-        });
-      }
-      if ($("#unobtainable-items").is(":checked")) {
-        $.ajax({
-          url: "assets/json/unobtainable.json",
-          async: false,
-          dataType: "json",
-          success: function (data2) {
-            all_items.armor = { ...all_items.armor, ...data2.armor };
-            all_items.talisman = { ...all_items.talisman, ...data2.talisman };
-          },
-        });
-      }
-    },
+  fetchJson("assets/json/all_items.json", function (data) {
+    all_items = { ...data };
+
+    if ($("#altered-armor").is(":checked")) {
+      fetchJson("assets/json/altered_armor.json", function (data2) {
+        all_items.armor = { ...all_items.armor, ...data2 };
+      });
+    }
+
+    if ($("#unobtainable-items").is(":checked")) {
+      fetchJson("assets/json/unobtainable.json", function (data2) {
+        all_items.armor = { ...all_items.armor, ...data2.armor };
+        all_items.talisman = { ...all_items.talisman, ...data2.talisman };
+      });
+    }
+
+    if ($("#dlc-items").is(":checked")) {
+      fetchJson("assets/json/dlc_items.json", function (data2) {
+        all_items.armament = { ...all_items.armament, ...data2.armament };
+        all_items.armor = { ...all_items.armor, ...data2.armor };
+        all_items.talisman = { ...all_items.talisman, ...data2.talisman };
+      });
+    }
   });
-  $.ajax({
-    url: "assets/json/item_dict_template.json",
-    async: false,
-    dataType: "json",
-    success: function (data) {
-      item_dict_template = { ...data };
-    },
+
+  fetchJson("assets/json/item_dict_template.json", function (data) {
+    item_dict_template = { ...data };
   });
-  $.ajax({
-    url: "assets/json/item_counter.json",
-    async: false,
-    dataType: "json",
-    success: function (data) {
-      item_counter = { ...data };
-    },
+
+  fetchJson("assets/json/item_counter.json", function (data) {
+    item_counter = { ...data };
   });
 }
 
@@ -188,6 +184,7 @@ function getOwnedAndNot(file_read, selected_slot) {
 
     id_list.forEach((id) => {
       if (id in all_items["armament"]) {
+        console.log(id)
         owned_items["armament"][all_items["armament"][id]["class"]].push(all_items["armament"][id]["name"]);
         item_counter["armament"][all_items["armament"][id]["class"]]["owned"]++;
         item_counter["armament"][all_items["armament"][id]["class"]]["total"]++;
