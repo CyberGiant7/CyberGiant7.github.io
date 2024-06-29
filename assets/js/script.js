@@ -1,12 +1,9 @@
 const fileSelector = document.getElementById("savefile");
-let pattern = new Uint8Array([
-  255, 255, 255, 255, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-]);
+
+const pattern = new Uint8Array([0xB0, 0xAD, 0x01, 0x00, 0x01, 0xFF, 0xFF, 0xFF]);
+const pattern_dlc = new Uint8Array([0xB0, 0xAD, 0x01, 0x00, 0x01]);
+let isDlcFile = false;
+
 
 let file_read = null;
 let inventory = null;
@@ -141,7 +138,11 @@ function buffer_equal(buf1, buf2) {
 }
 
 function getInventory(slot) {
-  index = subfinder(slot, pattern) + pattern.byteLength + 56;
+  index = subfinder(slot, pattern) + pattern.byteLength + 8
+  if (!index) {
+      index = subfinder(slot, pattern_dlc) + pattern_dlc.byteLength + 3
+      isDlcFile = true
+  }
   index1 = subfinder(slot.subarray(index, slot.byteLength), new Uint8Array(50).fill(0)) + index + 6;
   return slot.subarray(index, index1);
 }
@@ -179,7 +180,7 @@ function getOwnedAndNot(file_read, selected_slot) {
     let saves_array = new Uint8Array(file_read);
     let slots = get_slot_ls(saves_array);
     let inventory = Array.from(getInventory(slots[selected_slot]));
-    let id_list = split(inventory, 16);
+    let id_list = split(inventory, isDlcFile ? 8 : 16)
     id_list.forEach((raw_id, index) => (id_list[index] = getIdReversed(raw_id).toUpperCase()));
 
     let owned_items = JSON.parse(JSON.stringify(item_dict_template));
@@ -301,7 +302,7 @@ function getCard(item_name, category_name) {
 					 title="${item_name}">
 <br>
 <p class="card-text">${item_name}</p>
-<a href="https://eldenring.wiki.fextralife.com/${item_name.replaceAll(" ", "+")}" class="stretched-link" target="_blank"> </a> </div>
+<a href="https://eldenring.wiki.fextralife.com/${item_name.replace(/ \+\d+$/, "").replaceAll(" ", "+")}" class="stretched-link" target="_blank"> </a> </div>
 </div>`;
 }
 
