@@ -1,16 +1,12 @@
 {
     "armament": {
-        "00170A70": {
-            "name": "Fire Knight's Shortsword",
-            "class": "Dagger"
-        },
         "0016E360": {
             "name": "Main-gauche",
             "class": "Dagger"
         },
-        "03C8EEE0": {
-            "name": "Smithscript Dagger",
-            "class": "Throwing Blade"
+        "00170A70": {
+            "name": "Fire Knight's Shortsword",
+            "class": "Straight Sword"
         },
         "0026C1E0": {
             "name": "Stone-Sheathed Sword",
@@ -25,27 +21,19 @@
             "class": "Straight Sword"
         },
         "00264CB0": {
-            "name": "Velvet Sword Of St. Trina",
+            "name": "Velvet Sword of St. Trina",
             "class": "Straight Sword"
         },
-        "04061EF0": {
-            "name": "Leda's Sword",
-            "class": "Light Greatsword"
-        },
-        "0405F7E0": {
-            "name": "Milady",
-            "class": "Light Greatsword"
-        },
-        "04064600": {
-            "name": "Rellana's Twinblade",
-            "class": "Light Greatsword"
+        "0081DA30": {
+            "name": "Freyja's Greatsword",
+            "class": "Greatsword"
         },
         "00358EF0": {
-            "name": "Greatsword Of Damnation",
+            "name": "Greatsword of Damnation",
             "class": "Greatsword"
         },
         "00362B30": {
-            "name": "Greatsword Of Solitude",
+            "name": "Greatsword of Solitude",
             "class": "Greatsword"
         },
         "0035B600": {
@@ -61,11 +49,11 @@
             "class": "Colossal Sword"
         },
         "00456D70": {
-            "name": "Greatsword Of Radahn (Light)",
+            "name": "Greatsword of Radahn (Light)",
             "class": "Colossal Sword"
         },
         "00451F50": {
-            "name": "Greatsword Of Radahn (Lord)",
+            "name": "Greatsword of Radahn (Lord)",
             "class": "Colossal Sword"
         },
         "00454660": {
@@ -85,7 +73,7 @@
             "class": "Heavy Thrusting Sword"
         },
         "0072BF00": {
-            "name": "Dancing Blade Of Ranah",
+            "name": "Dancing Blade of Ranah",
             "class": "Curved Sword"
         },
         "007297F0": {
@@ -100,9 +88,13 @@
             "name": "Spirit Sword",
             "class": "Curved Sword"
         },
-        "00DD8EC0": {
+        "00820140":{
             "name": "Horned Warrior's Greatsword",
             "class": "Curved Greatsword"
+        },
+        "00DD8EC0": {
+            "name": "Messmer Soldier's Axe",
+            "class": "Axe"
         },
         "00DD67B0": {
             "name": "Death Knight's Twin Axes",
@@ -116,20 +108,16 @@
             "name": "Smithscript Axe",
             "class": "Axe"
         },
-        "00DD8EC0": {
-            "name": "Messmer Soldier's Axe",
-            "class": "Axe"
-        },
         "00EC82E0": {
             "name": "Death Knight's Longhaft Axe",
             "class": "Greataxe"
         },
-        "00ECA9F0": {
-            "name": "Bonny Butchering Knife",
+        "0081B320": {
+            "name": "Putrescence Cleaver",
             "class": "Greataxe"
         },
-        "00EC82E0": {
-            "name": "Putrescence Cleaver",
+        "00ECA9F0": {
+            "name": "Bonny Butchering Knife",
             "class": "Greataxe"
         },
         "00AF79E0": {
@@ -139,6 +127,14 @@
         "00CDFE60": {
             "name": "Serpent Flail",
             "class": "Flail"
+        },
+        "00BEBC20": {
+            "name": "Smithscript Greathammer",
+            "class": "Great Hammer"
+        },
+        "00BF0A40": {
+            "name": "Black Steel Greathammer",
+            "class": "Great Hammer"
         },
         "00BEE330": {
             "name": "Anvil Hammer",
@@ -185,20 +181,20 @@
             "class": "Great Spear"
         },
         "010B0760": {
-            "name": "Spear Of The Impaler",
+            "name": "Spear of the Impaler",
             "class": "Great Spear"
         },
         "011A70B0": {
-            "name": "Poleblade Of The Bud",
+            "name": "Poleblade of the Bud",
+            "class": "Halberd"
+        },
+        "011A49A0": {
+            "name": "Spirit Glaive",
             "class": "Halberd"
         },
         "01298BE0": {
             "name": "Obsidian Lamina",
             "class": "Reaper"
-        },
-        "011A49A0": {
-            "name": "Spirit Glaive",
-            "class": "Halberd"
         },
         "0138CE20": {
             "name": "Tooth Whip",
@@ -209,15 +205,15 @@
             "class": "Fist"
         },
         "01488590": {
+            "name": "Madding Hand",
+            "class": "Fist"
+        },
+        "01485E80": {
             "name": "Poisoned Hand",
             "class": "Fist"
         },
         "01483770": {
             "name": "Pata",
-            "class": "Fist"
-        },
-        "0148ACA0": {
-            "name": "Madding Hand",
             "class": "Fist"
         },
         "01481060": {
@@ -233,7 +229,7 @@
             "class": "Hand-To-Hand"
         },
         "015752A0": {
-            "name": "Claws Of Night",
+            "name": "Claws of Night",
             "class": "Claw"
         },
         "04153A20": {
@@ -289,7 +285,7 @@
             "class": "Ballista"
         },
         "01FF5270": {
-            "name": "Staff Of The Great Beyond",
+            "name": "Staff of the Great Beyond",
             "class": "Glintstone Staff"
         },
         "01FF7980": {
@@ -317,7 +313,7 @@
             "class": "Torch"
         },
         "0148D3B0": {
-            "name": "Shield Of Night",
+            "name": "Shield of Night",
             "class": "Small Shield"
         },
         "01D18BB0": {
@@ -368,12 +364,16 @@
             "name": "Curseblade's Cirque",
             "class": "Backhand Blade"
         },
+        "03C8EEE0": {
+            "name": "Smithscript Dagger",
+            "class": "Throwing Blade"
+        },
         "002673C0": {
             "name": "Star-Lined Sword",
             "class": "Katana"
         },
         "0090F560": {
-            "name": "Sword Of Night",
+            "name": "Sword of Night",
             "class": "Katana"
         },
         "03F6DCB0": {
@@ -395,6 +395,18 @@
         "00A05EB0": {
             "name": "Black Steel Twinblade",
             "class": "Twinblade"
+        },
+        "04061EF0": {
+            "name": "Leda's Sword",
+            "class": "Light Greatsword"
+        },
+        "0405F7E0": {
+            "name": "Milady",
+            "class": "Light Greatsword"
+        },
+        "04064600": {
+            "name": "Rellana's Twinblade",
+            "class": "Light Greatsword"
         }
     },
     "armor": {
@@ -468,7 +480,7 @@
         },
         "104C9960": {
             "name": "Pelt of Ralva",
-            "category": "Body"
+            "category": "Head"
         },
         "104C99C4": {
             "name": "Iron Rivet Armor",
@@ -924,7 +936,7 @@
         },
         "10512D40": {
             "name": "Greatjar",
-            "category": "Body"
+            "category": "Head"
         },
         "10515450": {
             "name": "Imp Head (Lion)",
