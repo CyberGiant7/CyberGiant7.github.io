@@ -1,0 +1,1402 @@
+{
+    "armament": {
+        "0016E360": {
+            "name": "Main-gauche",
+            "class": "Dagger"
+        },
+        "00170A70": {
+            "name": "Fire Knight's Shortsword",
+            "class": "Straight Sword"
+        },
+        "0026C1E0": {
+            "name": "Stone-Sheathed Sword",
+            "class": "Straight Sword"
+        },
+        "0026E8F0": {
+            "name": "Sword of Light",
+            "class": "Straight Sword"
+        },
+        "00271000": {
+            "name": "Sword of Darkness",
+            "class": "Straight Sword"
+        },
+        "00264CB0": {
+            "name": "Velvet Sword of St. Trina",
+            "class": "Straight Sword"
+        },
+        "0081DA30": {
+            "name": "Freyja's Greatsword",
+            "class": "Greatsword"
+        },
+        "00358EF0": {
+            "name": "Greatsword of Damnation",
+            "class": "Greatsword"
+        },
+        "00362B30": {
+            "name": "Greatsword of Solitude",
+            "class": "Greatsword"
+        },
+        "0035B600": {
+            "name": "Lizard Greatsword",
+            "class": "Greatsword"
+        },
+        "0044AA20": {
+            "name": "Ancient Meteoric Ore Greatsword",
+            "class": "Colossal Sword"
+        },
+        "0044F840": {
+            "name": "Fire Knight's Greatsword",
+            "class": "Colossal Sword"
+        },
+        "00456D70": {
+            "name": "Greatsword of Radahn (Light)",
+            "class": "Colossal Sword"
+        },
+        "00451F50": {
+            "name": "Greatsword of Radahn (Lord)",
+            "class": "Colossal Sword"
+        },
+        "00454660": {
+            "name": "Moonrithyll's Knight Sword",
+            "class": "Colossal Sword"
+        },
+        "00269AD0": {
+            "name": "Carian Sorcery Sword",
+            "class": "Thrusting Sword"
+        },
+        "00632EA0": {
+            "name": "Queelign's Greatsword",
+            "class": "Heavy Thrusting Sword"
+        },
+        "003567E0": {
+            "name": "Sword Lance",
+            "class": "Heavy Thrusting Sword"
+        },
+        "0072BF00": {
+            "name": "Dancing Blade of Ranah",
+            "class": "Curved Sword"
+        },
+        "007297F0": {
+            "name": "Falx",
+            "class": "Curved Sword"
+        },
+        "0072E610": {
+            "name": "Horned Warrior's Sword",
+            "class": "Curved Sword"
+        },
+        "007270E0": {
+            "name": "Spirit Sword",
+            "class": "Curved Sword"
+        },
+        "00820140":{
+            "name": "Horned Warrior's Greatsword",
+            "class": "Curved Greatsword"
+        },
+        "00DD8EC0": {
+            "name": "Messmer Soldier's Axe",
+            "class": "Axe"
+        },
+        "00DD67B0": {
+            "name": "Death Knight's Twin Axes",
+            "class": "Axe"
+        },
+        "00DDDCE0": {
+            "name": "Forked-Tongue Hatchet",
+            "class": "Axe"
+        },
+        "00DD40A0": {
+            "name": "Smithscript Axe",
+            "class": "Axe"
+        },
+        "00EC82E0": {
+            "name": "Death Knight's Longhaft Axe",
+            "class": "Greataxe"
+        },
+        "0081B320": {
+            "name": "Putrescence Cleaver",
+            "class": "Greataxe"
+        },
+        "00ECA9F0": {
+            "name": "Bonny Butchering Knife",
+            "class": "Greataxe"
+        },
+        "00AF79E0": {
+            "name": "Flowerstone Gavel",
+            "class": "Hammer"
+        },
+        "00CDFE60": {
+            "name": "Serpent Flail",
+            "class": "Flail"
+        },
+        "00BEBC20": {
+            "name": "Smithscript Greathammer",
+            "class": "Great Hammer"
+        },
+        "00BF0A40": {
+            "name": "Black Steel Greathammer",
+            "class": "Great Hammer"
+        },
+        "00BEE330": {
+            "name": "Anvil Hammer",
+            "class": "Colossal Weapon"
+        },
+        "00BF3150": {
+            "name": "Bloodfiend's Arm",
+            "class": "Colossal Weapon"
+        },
+        "016694E0": {
+            "name": "Devonia's Hammer",
+            "class": "Colossal Weapon"
+        },
+        "0166E300": {
+            "name": "Gazing Finger",
+            "class": "Colossal Weapon"
+        },
+        "0166BBF0": {
+            "name": "Shadow Sunflower Blossom",
+            "class": "Colossal Weapon"
+        },
+        "00FC6160": {
+            "name": "Bloodfiend's Fork",
+            "class": "Spear"
+        },
+        "00FBC520": {
+            "name": "Smithscript Spear",
+            "class": "Spear"
+        },
+        "00FC1340": {
+            "name": "Swift Spear",
+            "class": "Spear"
+        },
+        "010B5580": {
+            "name": "Barbed Staff-Spear",
+            "class": "Great Spear"
+        },
+        "00FC8870": {
+            "name": "Bloodfiend's Sacred Spear",
+            "class": "Great Spear"
+        },
+        "010B2E70": {
+            "name": "Messmer Soldier's Spear",
+            "class": "Great Spear"
+        },
+        "010B0760": {
+            "name": "Spear of the Impaler",
+            "class": "Great Spear"
+        },
+        "011A70B0": {
+            "name": "Poleblade of the Bud",
+            "class": "Halberd"
+        },
+        "011A49A0": {
+            "name": "Spirit Glaive",
+            "class": "Halberd"
+        },
+        "01298BE0": {
+            "name": "Obsidian Lamina",
+            "class": "Reaper"
+        },
+        "0138CE20": {
+            "name": "Tooth Whip",
+            "class": "Whip"
+        },
+        "0148ACA0": {
+            "name": "Golem Fist",
+            "class": "Fist"
+        },
+        "01488590": {
+            "name": "Madding Hand",
+            "class": "Fist"
+        },
+        "01485E80": {
+            "name": "Poisoned Hand",
+            "class": "Fist"
+        },
+        "01483770": {
+            "name": "Pata",
+            "class": "Fist"
+        },
+        "01481060": {
+            "name": "Thiollier's Hidden Needle",
+            "class": "Fist"
+        },
+        "039B4F30": {
+            "name": "Dane's Footwork",
+            "class": "Hand-To-Hand"
+        },
+        "039B2820": {
+            "name": "Dryleaf Arts",
+            "class": "Hand-To-Hand"
+        },
+        "015752A0": {
+            "name": "Claws of Night",
+            "class": "Claw"
+        },
+        "04153A20": {
+            "name": "Beast Claw (Weapon)",
+            "class": "Beast Claw"
+        },
+        "04156130": {
+            "name": "Red Bear's Claw",
+            "class": "Beast Claw"
+        },
+        "03AA9170": {
+            "name": "Chilling Perfume Bottle",
+            "class": "Perfume Bottle"
+        },
+        "03AB06A0": {
+            "name": "Deadly Poison Perfume Bottle",
+            "class": "Perfume Bottle"
+        },
+        "03AA6A60": {
+            "name": "Firespark Perfume Bottle",
+            "class": "Perfume Bottle"
+        },
+        "03AAB880": {
+            "name": "Frenzyflame Perfume Bottle",
+            "class": "Perfume Bottle"
+        },
+        "03AADF90": {
+            "name": "Lightning Perfume Bottle",
+            "class": "Perfume Bottle"
+        },
+        "0269FB20": {
+            "name": "Bone Bow",
+            "class": "Light Bow"
+        },
+        "02796470": {
+            "name": "Ansbach's Longbow",
+            "class": "Bow"
+        },
+        "02887FA0": {
+            "name": "Igon's Greatbow",
+            "class": "Greatbow"
+        },
+        "0297C1E0": {
+            "name": "Repeating Crossbow",
+            "class": "Crossbow"
+        },
+        "0297E8F0": {
+            "name": "Spread Crossbow",
+            "class": "Crossbow"
+        },
+        "02A70420": {
+            "name": "Rabbath's Cannon",
+            "class": "Ballista"
+        },
+        "01FF5270": {
+            "name": "Staff of the Great Beyond",
+            "class": "Glintstone Staff"
+        },
+        "01FF7980": {
+            "name": "Maternal Staff",
+            "class": "Glintstone Staff"
+        },
+        "020E6DA0": {
+            "name": "Dryleaf Seal",
+            "class": "Sacred Seal"
+        },
+        "020E94B0": {
+            "name": "Fire Knight's Seal",
+            "class": "Sacred Seal"
+        },
+        "020EBBC0": {
+            "name": "Spiraltree Seal",
+            "class": "Sacred Seal"
+        },
+        "0175D720": {
+            "name": "Nanaya's Torch",
+            "class": "Torch"
+        },
+        "0175FE30": {
+            "name": "Lamenting Visage",
+            "class": "Torch"
+        },
+        "0148D3B0": {
+            "name": "Shield of Night",
+            "class": "Small Shield"
+        },
+        "01D18BB0": {
+            "name": "Smithscript Shield",
+            "class": "Small Shield"
+        },
+        "01E11C10": {
+            "name": "Golden Lion Shield",
+            "class": "Medium Shield"
+        },
+        "01E0A6E0": {
+            "name": "Messmer Soldier Shield",
+            "class": "Medium Shield"
+        },
+        "01E0F500": {
+            "name": "Serpent Crest Shield",
+            "class": "Medium Shield"
+        },
+        "01E0CDF0": {
+            "name": "Wolf Crest Shield",
+            "class": "Medium Shield"
+        },
+        "01EFE920": {
+            "name": "Black Steel Greatshield",
+            "class": "Greatshield"
+        },
+        "01F03740": {
+            "name": "Verdigris Greatshield",
+            "class": "Greatshield"
+        },
+        "03B9ACA0": {
+            "name": "Dueling Shield",
+            "class": "Thrusting Shield"
+        },
+        "03B9D3B0": {
+            "name": "Carian Thrusting Shield",
+            "class": "Thrusting Shield"
+        },
+        "03D83120": {
+            "name": "Backhand Blade",
+            "class": "Backhand Blade"
+        },
+        "03D85830": {
+            "name": "Smithscript Cirque",
+            "class": "Backhand Blade"
+        },
+        "03D87F40": {
+            "name": "Curseblade's Cirque",
+            "class": "Backhand Blade"
+        },
+        "03C8EEE0": {
+            "name": "Smithscript Dagger",
+            "class": "Throwing Blade"
+        },
+        "002673C0": {
+            "name": "Star-Lined Sword",
+            "class": "Katana"
+        },
+        "0090F560": {
+            "name": "Sword of Night",
+            "class": "Katana"
+        },
+        "03F6DCB0": {
+            "name": "Dragon-Hunter's Great Katana",
+            "class": "Great Katana"
+        },
+        "03F6B5A0": {
+            "name": "Great Katana",
+            "class": "Great Katana"
+        },
+        "03F703C0": {
+            "name": "Rakshasa's Great Katana",
+            "class": "Great Katana"
+        },
+        "00A037A0": {
+            "name": "Euporia",
+            "class": "Twinblade"
+        },
+        "00A05EB0": {
+            "name": "Black Steel Twinblade",
+            "class": "Twinblade"
+        },
+        "04061EF0": {
+            "name": "Leda's Sword",
+            "class": "Light Greatsword"
+        },
+        "0405F7E0": {
+            "name": "Milady",
+            "class": "Light Greatsword"
+        },
+        "04064600": {
+            "name": "Rellana's Twinblade",
+            "class": "Light Greatsword"
+        }
+    },
+    "armor": {
+        "102DC6C0": {
+            "name": "Dane's Hat",
+            "category": "Head"
+        },
+        "102DC724": {
+            "name": "Dryleaf Robe",
+            "category": "Body"
+        },
+        "102DC788": {
+            "name": "Dryleaf Arm Wraps",
+            "category": "Arms"
+        },
+        "102DC7EC": {
+            "name": "Dryleaf Cuissardes",
+            "category": "Legs"
+        },
+        "102DEDD0": {
+            "name": "Gaius's Helm",
+            "category": "Head"
+        },
+        "102DEE34": {
+            "name": "Gaius's Armor",
+            "category": "Body"
+        },
+        "102DEE98": {
+            "name": "Gaius's Gauntlets",
+            "category": "Arms"
+        },
+        "102DEEFC": {
+            "name": "Gaius's Greaves",
+            "category": "Legs"
+        },
+        "104C4B40": {
+            "name": "Oathseeker Knight Helm",
+            "category": "Head"
+        },
+        "104C4BA4": {
+            "name": "Leda's Armor",
+            "category": "Body"
+        },
+        "104C4C08": {
+            "name": "Oathseeker Knight Gauntlets",
+            "category": "Arms"
+        },
+        "104C4C6C": {
+            "name": "Oathseeker Knight Greaves",
+            "category": "Legs"
+        },
+        "104C5374": {
+            "name": "Oathseeker Knight Armor",
+            "category": "Body"
+        },
+        "104C7250": {
+            "name": "Verdigris Helm",
+            "category": "Head"
+        },
+        "104C72B4": {
+            "name": "Verdigris Armor",
+            "category": "Body"
+        },
+        "104C7318": {
+            "name": "Verdigris Gauntlets",
+            "category": "Arms"
+        },
+        "104C737C": {
+            "name": "Verdigris Greaves",
+            "category": "Legs"
+        },
+        "104C9960": {
+            "name": "Pelt of Ralva",
+            "category": "Head"
+        },
+        "104C99C4": {
+            "name": "Iron Rivet Armor",
+            "category": "Body"
+        },
+        "104C9A28": {
+            "name": "Iron Rivet Gauntlets",
+            "category": "Arms"
+        },
+        "104C9A8C": {
+            "name": "Iron Rivet Greaves",
+            "category": "Legs"
+        },
+        "104C9D48": {
+            "name": "Fang Helm",
+            "category": "Head"
+        },
+        "104CC070": {
+            "name": "Thiollier's Mask",
+            "category": "Head"
+        },
+        "104CC0D4": {
+            "name": "Thiollier's Garb",
+            "category": "Body"
+        },
+        "104CC138": {
+            "name": "Thiollier's Gloves",
+            "category": "Arms"
+        },
+        "104CC19C": {
+            "name": "Thiollier's Trousers",
+            "category": "Legs"
+        },
+        "104D35A0": {
+            "name": "High Priest Hat",
+            "category": "Head"
+        },
+        "104D3604": {
+            "name": "High Priest Robe",
+            "category": "Body"
+        },
+        "104D3668": {
+            "name": "High Priest Gloves",
+            "category": "Arms"
+        },
+        "104D36CC": {
+            "name": "High Priest Undergarments",
+            "category": "Legs"
+        },
+        "104D3DD4": {
+            "name": "Finger Robe",
+            "category": "Body"
+        },
+        "104D5CB0": {
+            "name": "Caterpillar Mask",
+            "category": "Head"
+        },
+        "104D5D14": {
+            "name": "Braided Cord Robe",
+            "category": "Body"
+        },
+        "104D5D78": {
+            "name": "Braided Arm Wraps",
+            "category": "Arms"
+        },
+        "104D5DDC": {
+            "name": "Soiled Loincloth",
+            "category": "Legs"
+        },
+        "104D83C0": {
+            "name": "Dancer's Hood",
+            "category": "Head"
+        },
+        "104D8424": {
+            "name": "Dancer's Dress",
+            "category": "Body"
+        },
+        "104D8488": {
+            "name": "Dancer's Bracer",
+            "category": "Arms"
+        },
+        "104D84EC": {
+            "name": "Dancer's Trousers",
+            "category": "Legs"
+        },
+        "104DAAD0": {
+            "name": "Helm of Night",
+            "category": "Head"
+        },
+        "104DAB34": {
+            "name": "Armor of Night",
+            "category": "Body"
+        },
+        "104DAB98": {
+            "name": "Gauntlets of Night",
+            "category": "Arms"
+        },
+        "104DABFC": {
+            "name": "Greaves of Night",
+            "category": "Legs"
+        },
+        "104DD1E0": {
+            "name": "Igon's Helm",
+            "category": "Head"
+        },
+        "104DD244": {
+            "name": "Igon's Armor",
+            "category": "Body"
+        },
+        "104DD2A8": {
+            "name": "Igon's Gauntlets",
+            "category": "Arms"
+        },
+        "104DD30C": {
+            "name": "Igon's Loincloth",
+            "category": "Legs"
+        },
+        "104DF8F0": {
+            "name": "Wise Man's Mask",
+            "category": "Head"
+        },
+        "104DF954": {
+            "name": "Ansbach's Attire",
+            "category": "Body"
+        },
+        "104DF9B8": {
+            "name": "Ansbach's Manchettes",
+            "category": "Arms"
+        },
+        "104DFA1C": {
+            "name": "Ansbach's Boots",
+            "category": "Legs"
+        },
+        "104E2000": {
+            "name": "Freyja's Helm",
+            "category": "Head"
+        },
+        "104E2064": {
+            "name": "Freyja's Armor",
+            "category": "Body"
+        },
+        "104E20C8": {
+            "name": "Freyja's Gauntlets",
+            "category": "Arms"
+        },
+        "104E212C": {
+            "name": "Freyja's Greaves",
+            "category": "Legs"
+        },
+        "104E4710": {
+            "name": "Helm of Solitude",
+            "category": "Head"
+        },
+        "104E4774": {
+            "name": "Armor of Solitude",
+            "category": "Body"
+        },
+        "104E47D8": {
+            "name": "Gauntlets of Solitude",
+            "category": "Arms"
+        },
+        "104E483C": {
+            "name": "Greaves of Solitude",
+            "category": "Legs"
+        },
+        "104E6E20": {
+            "name": "Messmer Soldier Helm",
+            "category": "Head"
+        },
+        "104E6E84": {
+            "name": "Messmer Soldier Armor",
+            "category": "Body"
+        },
+        "104E6EE8": {
+            "name": "Messmer Soldier Gauntlets",
+            "category": "Arms"
+        },
+        "104E6F4C": {
+            "name": "Messmer Soldier Greaves",
+            "category": "Legs"
+        },
+        "104E9530": {
+            "name": "Black Knight Helm",
+            "category": "Head"
+        },
+        "104E9594": {
+            "name": "Black Knight Armor",
+            "category": "Body"
+        },
+        "104E95F8": {
+            "name": "Black Knight Gauntlets",
+            "category": "Arms"
+        },
+        "104E965C": {
+            "name": "Black Knight Greaves",
+            "category": "Legs"
+        },
+        "104EBC40": {
+            "name": "Rakshasa Helm",
+            "category": "Head"
+        },
+        "104EBCA4": {
+            "name": "Rakshasa Armor",
+            "category": "Body"
+        },
+        "104EBD08": {
+            "name": "Rakshasa Gauntlets",
+            "category": "Arms"
+        },
+        "104EBD6C": {
+            "name": "Rakshasa Greaves",
+            "category": "Legs"
+        },
+        "104F0A60": {
+            "name": "Fire Knight Helm",
+            "category": "Head"
+        },
+        "104F0AC4": {
+            "name": "Fire Knight Armor",
+            "category": "Body"
+        },
+        "104F0B28": {
+            "name": "Fire Knight Gauntlets",
+            "category": "Arms"
+        },
+        "104F0B8C": {
+            "name": "Fire Knight Greaves",
+            "category": "Legs"
+        },
+        "104F1230": {
+            "name": "Death Mask Helm",
+            "category": "Head"
+        },
+        "104F1618": {
+            "name": "Winged Serpent Helm",
+            "category": "Head"
+        },
+        "104F1A00": {
+            "name": "Salza's Hood",
+            "category": "Head"
+        },
+        "104F3170": {
+            "name": "Leather Headband",
+            "category": "Head"
+        },
+        "104F31D4": {
+            "name": "Gloried Attire",
+            "category": "Body"
+        },
+        "104F3238": {
+            "name": "Leather Arm Wraps",
+            "category": "Arms"
+        },
+        "104F329C": {
+            "name": "Leather Leg Wraps",
+            "category": "Legs"
+        },
+        "104F3558": {
+            "name": "Leather Crown",
+            "category": "Head"
+        },
+        "104F35BC": {
+            "name": "Highland Attire",
+            "category": "Body"
+        },
+        "104F5880": {
+            "name": "Death Knight Helm",
+            "category": "Head"
+        },
+        "104F58E4": {
+            "name": "Death Knight Armor",
+            "category": "Body"
+        },
+        "104F5948": {
+            "name": "Death Knight Gauntlets",
+            "category": "Arms"
+        },
+        "104F59AC": {
+            "name": "Death Knight Greaves",
+            "category": "Legs"
+        },
+        "104F7F90": {
+            "name": "Curseblade Mask",
+            "category": "Head"
+        },
+        "104F7FF4": {
+            "name": "Ascetic's Loincloth",
+            "category": "Legs"
+        },
+        "104F8058": {
+            "name": "Ascetic's Wrist Guards",
+            "category": "Arms"
+        },
+        "104F80BC": {
+            "name": "Ascetic's Ankle Guards",
+            "category": "Legs"
+        },
+        "104FA6A0": {
+            "name": "Messmer's Helm",
+            "category": "Head"
+        },
+        "104FA704": {
+            "name": "Messmer's Armor",
+            "category": "Body"
+        },
+        "104FA768": {
+            "name": "Messmer's Gauntlets",
+            "category": "Arms"
+        },
+        "104FA7CC": {
+            "name": "Messmer's Greaves",
+            "category": "Legs"
+        },
+        "104FCDB0": {
+            "name": "Gravebird Helm",
+            "category": "Head"
+        },
+        "104FCE14": {
+            "name": "Gravebird's Blackquill Armor",
+            "category": "Body"
+        },
+        "104FCE78": {
+            "name": "Gravebird Bracelets",
+            "category": "Arms"
+        },
+        "104FCEDC": {
+            "name": "Gravebird Anklets",
+            "category": "Legs"
+        },
+        "104FD1FC": {
+            "name": "Gravebird Armor",
+            "category": "Body"
+        },
+        "104FF4C0": {
+            "name": "Common Soldier Helm",
+            "category": "Head"
+        },
+        "104FF524": {
+            "name": "Common Soldier Cloth Armor",
+            "category": "Body"
+        },
+        "104FF588": {
+            "name": "Common Soldier Gauntlets",
+            "category": "Arms"
+        },
+        "104FF5EC": {
+            "name": "Common Soldier Greaves",
+            "category": "Legs"
+        },
+        "10501BD0": {
+            "name": "Horned Warrior Helm",
+            "category": "Head"
+        },
+        "10501C34": {
+            "name": "Horned Warrior Armor",
+            "category": "Body"
+        },
+        "10501C98": {
+            "name": "Horned Warrior Gauntlets",
+            "category": "Arms"
+        },
+        "10501CFC": {
+            "name": "Horned Warrior Greaves",
+            "category": "Legs"
+        },
+        "105023A0": {
+            "name": "Divine Beast Helm",
+            "category": "Head"
+        },
+        "10502404": {
+            "name": "Divine Beast Warrior Armor",
+            "category": "Body"
+        },
+        "10502788": {
+            "name": "Divine Bird Helm",
+            "category": "Head"
+        },
+        "105027EC": {
+            "name": "Divine Bird Warrior Armor",
+            "category": "Body"
+        },
+        "10502850": {
+            "name": "Divine Bird Warrior Gauntlets",
+            "category": "Arms"
+        },
+        "105028B4": {
+            "name": "Divine Bird Warrior Greaves",
+            "category": "Legs"
+        },
+        "105042E0": {
+            "name": "Rellana's Helm",
+            "category": "Head"
+        },
+        "10504344": {
+            "name": "Rellana's Armor",
+            "category": "Body"
+        },
+        "105043A8": {
+            "name": "Rellana's Gloves",
+            "category": "Arms"
+        },
+        "1050440C": {
+            "name": "Rellana's Greaves",
+            "category": "Legs"
+        },
+        "105069F0": {
+            "name": "Young Lion's Helm",
+            "category": "Head"
+        },
+        "10506A54": {
+            "name": "Young Lion's Armor",
+            "category": "Body"
+        },
+        "10506AB8": {
+            "name": "Young Lion's Gauntlets",
+            "category": "Arms"
+        },
+        "10506B1C": {
+            "name": "Young Lion's Greaves",
+            "category": "Legs"
+        },
+        "105071C0": {
+            "name": "Circlet of Light",
+            "category": "Head"
+        },
+        "10509100": {
+            "name": "Shadow Militiaman Helm",
+            "category": "Head"
+        },
+        "10509164": {
+            "name": "Shadow Militiaman Armor",
+            "category": "Body"
+        },
+        "105091C8": {
+            "name": "Shadow Militiaman Gauntlets",
+            "category": "Arms"
+        },
+        "1050922C": {
+            "name": "Shadow Militiaman Greaves",
+            "category": "Legs"
+        },
+        "1050B810": {
+            "name": "Divine Beast Head",
+            "category": "Head"
+        },
+        "1050DF20": {
+            "name": "St. Trina's Blossom",
+            "category": "Head"
+        },
+        "10510630": {
+            "name": "Crucible Hammer-Helm",
+            "category": "Head"
+        },
+        "10512D40": {
+            "name": "Greatjar",
+            "category": "Head"
+        },
+        "10515450": {
+            "name": "Imp Head (Lion)",
+            "category": "Head"
+        }
+    },
+    "ashesOfWar": {
+        "80030D40": {
+            "name": "Ash of War: Dryleaf Whirlwind",
+            "category": "Standard"
+        },
+        "80030DA4": {
+            "name": "Ash of War: Aspects of the Crucible: Wings",
+            "category": "Sacred"
+        },
+        "80061A80": {
+            "name": "Ash of War: Spinning Gravity Thrust",
+            "category": "Heavy"
+        },
+        "80061E68": {
+            "name": "Ash of War: Palm Blast",
+            "category": "Standard"
+        },
+        "80062250": {
+            "name": "Ash of War: Piercing Throw",
+            "category": "Keen"
+        },
+        "80062638": {
+            "name": "Ash of War: Scattershot Throw",
+            "category": "Keen"
+        },
+        "80062A20": {
+            "name": "Ash of War: Wall of Sparks",
+            "category": "Standard"
+        },
+        "80062E08": {
+            "name": "Ash of War: Rolling Sparks",
+            "category": "Standard"
+        },
+        "800631F0": {
+            "name": "Ash of War: Raging Beast",
+            "category": "Keen"
+        },
+        "800635D8": {
+            "name": "Ash of War: Savage Claws",
+            "category": "Keen"
+        },
+        "80063DA8": {
+            "name": "Ash of War: Blind Spot",
+            "category": "Keen"
+        },
+        "80064190": {
+            "name": "Ash of War: Swift Slash",
+            "category": "Keen"
+        },
+        "80064578": {
+            "name": "Ash of War: Overhead Stance",
+            "category": "Keen"
+        },
+        "80064960": {
+            "name": "Ash of War: Wing Stance",
+            "category": "Quality"
+        },
+        "80064D48": {
+            "name": "Ash of War: Blinkbolt",
+            "category": "Lightning"
+        },
+        "80065130": {
+            "name": "Ash of War: Flame Skewer",
+            "category": "Flame Art"
+        },
+        "80065518": {
+            "name": "Ash of War: Savage Lion's Claw",
+            "category": "Heavy"
+        },
+        "80065900": {
+            "name": "Ash of War: Divine Beast Frost Stomp",
+            "category": "Cold"
+        },
+        "80065CE8": {
+            "name": "Ash of War: Flame Spear",
+            "category": "Flame Art"
+        },
+        "800660D0": {
+            "name": "Ash of War: Carian Sovereignty",
+            "category": "Magic"
+        },
+        "800664B8": {
+            "name": "Ash of War: Shriek of Sorrow",
+            "category": "Occult"
+        },
+        "80067070": {
+            "name": "Ash of War: Ghostflame Call",
+            "category": "Cold"
+        },
+        "8007B4A8": {
+            "name": "Ash of War: The Poison Flower Blooms Twice",
+            "category": "Poison"
+        },
+        "80085CA0": {
+            "name": "Ash of War: Igon's Drake Hunt",
+            "category": "Standard"
+        },
+        "800C3500": {
+            "name": "Ash of War: Shield Strike",
+            "category": "Standard"
+        }
+    },
+    "magic": {
+        "401E954C": {
+            "name": "Miriam's Vanishing",
+            "category": "Sorcery"
+        },
+        "401E9556": {
+            "name": "Glintblade Trio",
+            "category": "Sorcery"
+        },
+        "401E9560": {
+            "name": "Rellana's Twin Moons",
+            "category": "Sorcery"
+        },
+        "401E9614": {
+            "name": "Glintstone Nail",
+            "category": "Sorcery"
+        },
+        "401E961E": {
+            "name": "Glintstone Nails",
+            "category": "Sorcery"
+        },
+        "401E96DC": {
+            "name": "Blades of Stone",
+            "category": "Sorcery"
+        },
+        "401E96E6": {
+            "name": "Gravitational Missile",
+            "category": "Sorcery"
+        },
+        "401E97A4": {
+            "name": "Mantle of Thorns",
+            "category": "Sorcery"
+        },
+        "401E97AE": {
+            "name": "Impenetrable Thorns",
+            "category": "Sorcery"
+        },
+        "401EA172": {
+            "name": "Fleeting Microcosm",
+            "category": "Sorcery"
+        },
+        "401EA17C": {
+            "name": "Cherishing Fingers",
+            "category": "Sorcery"
+        },
+        "401E9808": {
+            "name": "Rings of Spectral Light",
+            "category": "Sorcery"
+        },
+        "401E9CB8": {
+            "name": "Vortex of Putrescence",
+            "category": "Sorcery"
+        },
+        "401E9CC2": {
+            "name": "Mass of Putrescence",
+            "category": "Sorcery"
+        },
+        "401E9D80": {
+            "name": "Heal from Afar",
+            "category": "Incantation"
+        },
+        "401E9E7A": {
+            "name": "Aspects of the Crucible: Thorns",
+            "category": "Incantation"
+        },
+        "401E9E84": {
+            "name": "Aspects of the Crucible: Bloom",
+            "category": "Incantation"
+        },
+        "401E9E8E": {
+            "name": "Minor Erdtree",
+            "category": "Incantation"
+        },
+        "401E9E98": {
+            "name": "Land of Shadow",
+            "category": "Incantation"
+        },
+        "401E9EA2": {
+            "name": "Wrath from Afar",
+            "category": "Incantation"
+        },
+        "401E9EB6": {
+            "name": "Multilayered Ring of Light",
+            "category": "Incantation"
+        },
+        "401E9EAC": {
+            "name": "Light of Miquella",
+            "category": "Incantation"
+        },
+        "401E9F74": {
+            "name": "Knight's Lightning Spear",
+            "category": "Incantation"
+        },
+        "401E9F7E": {
+            "name": "Dragonbolt of Florissax",
+            "category": "Incantation"
+        },
+        "401E9F88": {
+            "name": "Electrocharge",
+            "category": "Incantation"
+        },
+        "401EA230": {
+            "name": "Watchful Spirit",
+            "category": "Incantation"
+        },
+        "401EA294": {
+            "name": "Golden Arcs",
+            "category": "Incantation"
+        },
+        "401EA29E": {
+            "name": "Giant Golden Arc",
+            "category": "Incantation"
+        },
+        "401EA2A8": {
+            "name": "Spira",
+            "category": "Incantation"
+        },
+        "401EA2B2": {
+            "name": "Divine Beast Tornado",
+            "category": "Incantation"
+        },
+        "401EA2BC": {
+            "name": "Divine Bird Feathers",
+            "category": "Incantation"
+        },
+        "401EA2F8": {
+            "name": "Fire Serpent",
+            "category": "Incantation"
+        },
+        "401EA302": {
+            "name": "Rain of Fire",
+            "category": "Incantation"
+        },
+        "401EA30C": {
+            "name": "Messmer's Orb",
+            "category": "Incantation"
+        },
+        "401E9F10": {
+            "name": "Roar of Rugalea",
+            "category": "Incantation"
+        },
+        "401E9D1C": {
+            "name": "Furious Blade of Ansbach",
+            "category": "Incantation"
+        },
+        "401EA0A0": {
+            "name": "Rotten Butterflies",
+            "category": "Incantation"
+        },
+        "401EA0AA": {
+            "name": "Pest-Thread Spears",
+            "category": "Incantation"
+        },
+        "401EA104": {
+            "name": "Midra's Flame of Frenzy",
+            "category": "Incantation"
+        },
+        "401E9FD8": {
+            "name": "Bayle's Tyranny",
+            "category": "Incantation"
+        },
+        "401E9FE2": {
+            "name": "Bayle's Flame Lightning",
+            "category": "Incantation"
+        },
+        "401E9FEC": {
+            "name": "Ghostflame Breath",
+            "category": "Incantation"
+        }
+    },
+    "spiritAshes": {
+        "402191C0": {
+            "name": "Curseblade Meera"
+        },
+        "402195A8": {
+            "name": "Bloodfiend Hexer's Ashes"
+        },
+        "40219990": {
+            "name": "Gravebird Ashes"
+        },
+        "40219D78": {
+            "name": "Fire Knight Hilde"
+        },
+        "4021A160": {
+            "name": "Spider Scorpion Ashes"
+        },
+        "4021A548": {
+            "name": "Inquisitor Ashes"
+        },
+        "4021A930": {
+            "name": "Demi-Human Swordsman Yosh"
+        },
+        "4021AD18": {
+            "name": "Messmer Soldier Ashes"
+        },
+        "4021B100": {
+            "name": "Black Knight Commander Andreas"
+        },
+        "4021B4E8": {
+            "name": "Black Knight Captain Huw"
+        },
+        "4021B8D0": {
+            "name": "Bigmouth Imp Ashes"
+        },
+        "4021BCB8": {
+            "name": "Man-Fly Ashes"
+        },
+        "4021C0A0": {
+            "name": "Taylew the Golem Smith"
+        },
+        "4021C488": {
+            "name": "Divine Bird Warrior Ornis"
+        },
+        "4021C870": {
+            "name": "Horned Warrior Ashes"
+        },
+        "4021CC58": {
+            "name": "Ancient Dragon Florissax"
+        },
+        "4021D428": {
+            "name": "Fingercreeper Ashes"
+        },
+        "4021D810": {
+            "name": "Fire Knight Queelign"
+        },
+        "4021DBF8": {
+            "name": "Swordhand of Night Jolán"
+        },
+        "4021DFE0": {
+            "name": "Jolán and Anna"
+        }
+    },
+    "talisman": {
+        "200008AC": {
+            "name": "Perfumer's Talisman"
+        },
+        "20001B58": {
+            "name": "Crimson Amber Medallion +3"
+        },
+        "20001B62": {
+            "name": "Cerulean Amber Medallion +3"
+        },
+        "20001B6C": {
+            "name": "Viridian Amber Medallion +3"
+        },
+        "20001B76": {
+            "name": "Two-Headed Turtle Talisman"
+        },
+        "20001B80": {
+            "name": "Stalwart Horn Charm +2"
+        },
+        "20001B8A": {
+            "name": "Immunizing Horn Charm +2"
+        },
+        "20001B94": {
+            "name": "Clarifying Horn Charm +2"
+        },
+        "20001BA8": {
+            "name": "Mottled Necklace +2"
+        },
+        "20001BB2": {
+            "name": "Spelldrake Talisman +3"
+        },
+        "20001BBC": {
+            "name": "Flamedrake Talisman +3"
+        },
+        "20001BC6": {
+            "name": "Boltdrake Talisman +3"
+        },
+        "20001BD0": {
+            "name": "Golden Braid"
+        },
+        "20001BDA": {
+            "name": "Pearldrake Talisman +3"
+        },
+        "20001BE4": {
+            "name": "Crimson Seed Talisman +1"
+        },
+        "20001BEE": {
+            "name": "Cerulean Seed Talisman +1"
+        },
+        "20001F40": {
+            "name": "Blessed Blue Dew Talisman"
+        },
+        "20001F4A": {
+            "name": "Fine Crucible Feather Talisman"
+        },
+        "20001F54": {
+            "name": "Outer God Heirloom"
+        },
+        "20001F5E": {
+            "name": "Shattered Stone Talisman"
+        },
+        "20001F68": {
+            "name": "Two-Handed Sword Talisman"
+        },
+        "20001F72": {
+            "name": "Crusade Insignia"
+        },
+        "20001F7C": {
+            "name": "Aged One's Exultation"
+        },
+        "20001F86": {
+            "name": "Arrow's Soaring Sting Talisman"
+        },
+        "20001F9A": {
+            "name": "Pearl Shield Talisman"
+        },
+        "20001FA4": {
+            "name": "Dried Bouquet"
+        },
+        "20001FAE": {
+            "name": "Smithing Talisman"
+        },
+        "20001FB8": {
+            "name": "Ailment Talisman"
+        },
+        "20001FC2": {
+            "name": "Retaliatory Crossed-Tree"
+        },
+        "20001FCC": {
+            "name": "Lacerating Crossed-Tree"
+        },
+        "20001FD6": {
+            "name": "Sharpshot Talisman"
+        },
+        "20001FE0": {
+            "name": "St. Trina's Smile"
+        },
+        "20001FEA": {
+            "name": "Talisman of the Dread"
+        },
+        "20001FF4": {
+            "name": "Enraged Divine Beast"
+        },
+        "20001FFE": {
+            "name": "Beloved Stardust"
+        },
+        "20002008": {
+            "name": "Talisman of Lord's Bestowal"
+        },
+        "20002012": {
+            "name": "Verdigris Discus"
+        },
+        "2000201C": {
+            "name": "Rellana's Cameo"
+        },
+        "20002026": {
+            "name": "Blade of Mercy"
+        },
+        "20002030": {
+            "name": "Talisman of All Crucibles"
+        }
+    }
+}
